@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Orbitron&display=swap');
+*{
+    box-sizing:border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+.slctbox{
+    display:flex;
+    justify-content: center;
+    height:50vh;
+    align-items: center;
+
+}
+select{
+    font-family: 'Anton', sans-serif;
+
+    padding: 60px;
+    font-size: 32px;
+    -moz-apperance:none;
+    -webkit-appearance:none;
+   border:solid 5px #0099CC;
+   background-color: white;
+  outline:inset 10px #0099CC;
+  color:#0c7497;
+    
+}
+.table{
+    display:flex;
+    justify-content:center;
+}
+input{
+    padding:20px;
+}
+.chk{
+    width: 60px;
+    background-color: rgb(10 10 10);
+    color: #eeeff1;
+    caret-color: rgb(10 10 10);
+    border-radius: 50%;
+    border: solid #0c7db3;
+}
+.chk:focus{
+    box-shadow: 0 3px 0px 0 #1e2122;
+    outline: none;
+}
+
+td{
+    text-align:center;
+}
+#subbtn{
+    position:relative;
+    padding:23px;
+    border: double rgb(238 238 239);
+    background-color: #1a95cf;
+}
+button::after{
+    content:attr(data-count);
+    position: absolute;
+    background-color: red;
+     padding: 10px;
+      border-radius: 50%;
+    top: -15px;
+    right: -12px;
+    color: white;
+    font-size: 16px;
+     font-weight: bolder;     
+   
+
+}
+input[type=text]
+{
+    font-weight:bold;
+    text-transform:capitalize;
+}
+.heading
+{
+    font-family: sans-serif;
+    color:#1a95cf;
+    font-weight:bold;
+    letter-spacing:3px;
+}
+#rel{
+    position:relative;
+}
+small{
+    display:none;
+    position: absolute;
+    font-weight: bold;
+    right: 0;
+    top: 5px;
+    color: #13a3f7;
+    left: 195px;
+    font-size: 15px;
+
+}
+/* .remove{
+    padding:10px;
+    background-color: red;
+    border-radius: 50%;
+} */
+@media screen and (max-width:500px)
+{
+
+    .id{
+       display:none;
+   }
+   .roll{
+       display:none;
+   }
+   small{
+       display:block;
+   }
+
+}

@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:0;
+    margin:0;
+}
+.selecter{
+    display:flex;
+    justify-content: center;
+    height:50vh;
+    align-items: center;
+}
+#class{
+    font-family: 'Anton', sans-serif;
+
+    padding: 60px;
+    font-size: 32px;
+    -moz-apperance:none;
+    -webkit-appearance:none;
+   border:solid 5px #0099CC;
+   background-color: white;
+  outline:outset 10px #0099CC;
+  font-weight: bold;
+  color:#0c7497;
+    
+}
+
+.table{
+    display:flex;
+    justify-content:center;
+   
+}
+#donebtn{
+    background-color: #11b4eb;
+    border:double #f6f7f8;
+    color:white;
+    font-weight:bold;
+    outline:solid rgb(0, 153, 255);
+   outline-width:6px;
+  
+}
+#donebtn:hover{
+    background-color: #0c7497;
+    
+   
+}
+table{
+    border-collapse: collapse;
+    border: #3186c3;
+}
+#mode{
+    background-color: #11b4eb;
+    font-weight: bold;
+    border-style:hidden;
+}
+#mode:focus{
+    outline: none;
+}
+option{
+    background-color: #ecf1f3;
+}
+
+input[type=text]:focus
+{
+    outline:none;
+    
+}
+
+input[name=outof]::placeholder
+{
+    font-size:2rem;
+    color:#0c7497;
+}
+input[name=outof]:focus{
+    border:dashed rgb(185, 181, 181);
+}

@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding:0;
+  margin:0;
+  /* background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+} */
+}
+h1{
+    font-size: 72px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing:25px;
+    color:black;
+/*    
+  background: -webkit-linear-gradient(#8BC6EC,#e2e3eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
