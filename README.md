@@ -2,6 +2,6 @@
 complete application for educational institutions
 <div id="badges">
 <a href="http://althaftution.atwebpages.com/">
- <img src="https://komarev.com/ghpvc/?username=your-github-username&style=flat-square&color=blue" alt=""/>
+ <img src="https://aleen42.github.io/badges/src/google_plus.svg" alt=""/>
  </a>
 </div>
