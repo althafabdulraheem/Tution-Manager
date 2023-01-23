@@ -7,3 +7,4 @@ complete application for educational institutions
  </a>
 </div>
 <img src="https://github.com/althafabdulraheem/Tution-Manager/blob/main/tuition_login.png"/>
+<img src="https://github.com/althafabdulraheem/Tution-Manager/blob/main/home_page.png"/>
