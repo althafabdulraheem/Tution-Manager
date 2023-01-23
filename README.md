@@ -1,5 +1,5 @@
-# Tution-Manager
-complete application for educational institutions | <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt=""/>
+# Tution-Manager | <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt=""/>
+complete application for educational institutions 
 
 <div id="badges">
 <a href="http://althaftution.atwebpages.com/">
